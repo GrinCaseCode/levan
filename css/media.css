@@ -719,6 +719,9 @@ body {
     max-width: 288px;
     margin: 0 auto;
 }
+.billbord__middle .btn-main {
+    margin: 0 auto;
+}
 }
 
 /* Custom, iPhone Retina */
