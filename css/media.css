@@ -580,7 +580,7 @@ body {
 	padding: 0 10px;
 }
 .audio-wrap_main .audio-player {
-	height: 46px;
+	height: 43px;
 }
 .audio-wrap_main .jp-play {
     width: 32px;
@@ -713,6 +713,11 @@ body {
 }
 .get-tarif .title-page br {
     display: none;
+}
+.audio-wrap {
+    display: block;
+    max-width: 288px;
+    margin: 0 auto;
 }
 }
 

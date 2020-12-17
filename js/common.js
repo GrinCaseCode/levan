@@ -137,7 +137,7 @@ $(document).ready(function() {
 
 	/*высота блока по экрану*/
     function heightDetect() {
-      $('.header__bottom').css("height", $(window).height() -$(".header").height() + 40);
+      $('.header__bottom').css("height", $(window).height() -$(".header").height() + 60);
     };
     heightDetect();
     $(window).resize(function() {
