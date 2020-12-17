@@ -627,6 +627,7 @@ body {
 }
 .action-block__item strong {
     font-size: 43px;
+    line-height: 53px;
 }
 .action-block__item span {
     font-size: 11px;
@@ -721,6 +722,12 @@ body {
 }
 .billbord__middle .btn-main {
     margin: 0 auto;
+}
+.billbord {
+    padding-top: 20px;
+}
+.billbord__middle {
+    margin-top: 22px;
 }
 }
 
