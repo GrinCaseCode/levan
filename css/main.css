@@ -1274,3 +1274,59 @@ background-color: rgba(164, 87, 61, 0.4);
 }
 
 /*End Sandwich*/
+.title-form {
+	font-size: 30px;
+	padding-bottom: 20px;
+	font-weight: 800;
+	text-align: center;
+}
+.modal-block {
+	display: none;
+}
+.fancybox-skin {
+	padding: 0 !important;
+	box-shadow: none !important;
+	background-color: transparent !important;
+}
+.fancybox-inner {
+	overflow: visible !important;
+}
+.modal-wrap .block-form .item-form {
+	margin-bottom: 20px;
+}
+.modal-wrap .block-form {
+	width: 455px;
+	padding: 60px 30px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+.modal-wrap .checkbox {
+	margin-top: 26px;
+}
+.fancybox-close {
+    top: 17px;
+    right: 15px;
+	width: 15px;
+	height: 15px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	background: none !important;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	display: inline-block;
+	font-style: normal;
+	font-variant: normal;
+	text-rendering: auto;
+	line-height: 1;
+	transform: rotate(44deg);
+	color: #d7b078;
+	font-family: "Font Awesome 5 Pro";
+	font-weight: 800;
+	font-size: 15px;
+}
+.fancybox-close:before {
+	content: "\f067";
+}

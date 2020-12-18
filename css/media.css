@@ -734,6 +734,16 @@ body {
 .billbord__middle {
     margin-top: 22px;
 }
+.modal-wrap .block-form {
+    padding: 40px 15px;
+}
+.title-form {
+    font-size: 21px;
+    padding-bottom: 13px;
+    }
+    .modal-wrap .checkbox {
+    margin-top: 15px;
+}
 }
 
 /* Custom, iPhone Retina */
