@@ -52,3 +52,12 @@ url('../fonts/OpenSans-ExtraBoldItalic.ttf') format('truetype');
 font-weight: 800;
 font-style: italic;
 }
+@font-face {
+font-family: 'Open Sans';
+src: url('../fonts/OpenSans-BoldItalic.eot');
+src: url('../fonts/OpenSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+url('../fonts/OpenSans-BoldItalic.woff') format('woff'),
+url('../fonts/OpenSans-BoldItalic.ttf') format('truetype');
+font-weight: 700;
+font-style: italic;
+}

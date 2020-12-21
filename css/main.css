@@ -1330,3 +1330,122 @@ background-color: rgba(164, 87, 61, 0.4);
 .fancybox-close:before {
 	content: "\f067";
 }
+
+.breadcumbs{
+	display: flex;
+	margin-top: 27px;
+}
+.breadcumbs li a{
+	color: #1e4655;
+	font-size: 16px;
+	font-weight: 400;
+	border-bottom: 1px transparent solid;
+	transition: all 0.3s;
+}
+.breadcumbs li a:hover{
+	border-color: #1e4655;
+}
+.breadcumbs li span{
+	margin-left: 8px;
+	margin-right: 8px;
+}
+.article h1{
+	color: #1e4655;
+	margin-top: -15px;
+	font-size: 40px;
+	font-weight: 800;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+.article-data{
+	color: #1e4655;
+	font-size: 16px;
+	font-weight: 400;
+	text-align: center;
+	margin-bottom: 14px;
+}
+.article img{
+	max-width: 100%;
+	margin: 0 auto;
+	border-radius: 10px;
+	margin-bottom: 25px;
+}
+
+.article-text > p {
+	color: #333333;
+	font-size: 18px;
+	line-height: 26px;
+	margin-bottom: 25px;
+}
+.blockquote {
+	color: #333333;
+	font-size: 16px;
+	font-weight: 700;
+	font-style: italic;
+	padding: 29px 54px 27px 35px;
+	background-color: #fbf7f1;
+	line-height: 26px;
+	margin-bottom: 25px;
+}
+.article h2{
+	color: #a4573d;
+	font-size: 30px;
+	font-weight: 800;
+	margin-bottom: 20px;
+	padding-top: 10px;
+}
+.step-text{
+	margin-bottom: 20px;
+	display: flex;
+}
+.step-text p{
+	display: block;
+	text-align: justify;
+	padding: 15px 0px 0px 22px;
+	color: #333333;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 26px;
+	text-align: left;
+}
+
+.step-text__number {
+	color: #d7b078;
+	font-size: 48px;
+	font-weight: 800;
+	display: flex;
+}
+.pagination {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 12px 15px;
+	background-color: #fbf7f1;
+}
+.pagination ul {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.pagination a {
+	font-size: 18px;
+	margin: 0 17px;
+	color: #1e4655;
+	font-weight: 700;
+	transition: all 0.3s;
+}
+.pagination a:hover {
+	color: #a4573d;
+}
+.pagination a i {
+	font-size: 14px;
+}
+.pagination__arrow:first-of-type {
+	margin-right: auto;
+}
+.pagination__arrow:last-of-type {
+	margin-left: auto;
+}
+.blog_page {
+	padding-top: 45px;
+}
